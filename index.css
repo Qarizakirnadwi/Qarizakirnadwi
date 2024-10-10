@@ -1,0 +1,49 @@
+body{
+    font-family: Arial, sans-serif;
+    line-height:1.6;
+}
+header{
+    background:#e605d3;
+    color:#ebe9f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    margin-left: auto;
+}
+nav ul{
+    list-style:none;
+    display:flex;
+    justify-content:center;
+}
+nav a{
+    color:#ebe9f8;
+    padding:10px;
+    text-decoration:none;
+
+}
+.hero{
+    text-align:center;
+    padding: 25px;
+}
+#portfolio{
+    display:grid;
+    grid-temlate-columns:repeat(auto-fill, ninmax(300px, 1fr));
+    gap:20px
+}
+#about{
+    padding:40px;
+    background:#f4f4f4
+    text-algn:center;
+}
+#about h2{
+    font-size:2em;
+    margin-bottom:20px;
+}
+#about p{
+    max-width:600px;
+    margin:0 auto;
+    line-height:1.6;
+}
